@@ -1,0 +1,88 @@
+{
+  "name": "eSmart World App Builder",
+  "short_name": "eSmart Builder",
+  "description": "Professional Android & React Native App Builder IDE by Dr. Irfan — eSmart World",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafbff",
+  "theme_color": "#1a56ff",
+  "orientation": "portrait-primary",
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "/",
+  "id": "esmart-world-app-builder",
+  "categories": ["productivity", "developer tools", "utilities"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://placehold.co/72x72/1a56ff/white?text=eS",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://placehold.co/96x96/1a56ff/white?text=eS",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://placehold.co/128x128/1a56ff/white?text=eS",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://placehold.co/192x192/1a56ff/white?text=eS",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://placehold.co/256x256/1a56ff/white?text=eS",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "https://placehold.co/512x512/1a56ff/white?text=eS",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View all your Android projects",
+      "url": "/dashboard",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "AI Assistant",
+      "short_name": "AI",
+      "description": "Open AI Code Assistant",
+      "url": "/dashboard",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=1280&h=720&fit=crop",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "eSmart Builder Dashboard"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=390&h=844&fit=crop",
+      "sizes": "390x844",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "eSmart Builder Mobile View"
+    }
+  ]
+}
